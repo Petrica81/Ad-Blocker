@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+    rt1:
+        image: petrica81/adblock:0.1
+        volumes:
+            - .:/elocal
+        tty: true
+        command: python3 /elocal/ad_blocker.py
+        networks:
+            - cap2net
+        ports:
+         - "53:53/udp"
+networks:
+    cap2net:
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.9.0.0/16 
+                  gateway: 172.9.1.1

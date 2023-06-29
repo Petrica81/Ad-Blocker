@@ -1,0 +1,10 @@
+Numărul de domenii de la Google:57
+Numărul de domenii de la Facebook:0
+Numărul de domenii de la alte surse:328
+
+Cele mai frecvente companii blocate:
+doubleclick -> 28
+google-analytics -> 16
+googletagmanager -> 16
+connatix -> 15
+trafficjunky -> 14
